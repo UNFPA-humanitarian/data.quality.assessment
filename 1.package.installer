@@ -1,0 +1,13 @@
+install.packages("ipumsr")   ##Package for Census Microsamples
+install.packages("ggplot2")
+install.packages("dplyr, 
+        warn.conflicts = FALSE")
+install.packages("foreign")  ##Package for handling proprietary data formats
+install.packages("devtools" , 
+                  repos = "http://cran.rstudio.com/" )
+install.packages("lodown")   ##Package to import DHS data directly from WWW
+install.packages("rDHS")     ##Package to handle Demographic Health Surveys
+install.packages("DemoTools")##Package for demog data quality assessment tools 
+install.packages("DDM")      ##Package for DDM, with CDMLTs
+install.packages("childhoodmortality")  ### Child Mortality Package
+install.packages("DHS.rates") ##Package for calculation of DHS rates
